@@ -1,0 +1,31 @@
+site_name: django-ateco
+site_description: Django helpers for Italian ATECO classification
+site_url: https://dlrsp.github.io/django-ateco/
+repo_url: https://github.com/DLRSP/django-ateco
+repo_name: DLRSP/django-ateco
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Community:
+      - Contributing: community/contributing.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+  - toc:
+      permalink: true

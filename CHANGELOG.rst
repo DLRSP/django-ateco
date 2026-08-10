@@ -1,3 +1,12 @@
+django_ateco 0.1.1 (2026-08-10)
+===============================
+
+Trivial Changes
+---------------
+
+- `#1 <https://github.com/DLRSP/django-ateco/issues/1>`_
+
+
 =========
 Changelog
 =========
